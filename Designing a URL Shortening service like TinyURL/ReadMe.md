@@ -8,7 +8,7 @@
   - [Clarifying Requirements and Goals of the System](#clarifying-requirements-and-goals-of-the-system)
   - [Estimating Storage Requirements and Constraints](#estimating-storage-requirements-and-constraints)
 - [Designing the API](#designing-the-api)
-- [Designing the Database](#desigining-the-database)
+- [Designing the Database](#designing-the-database)
 
 ## Identifying the System we are designing
 
