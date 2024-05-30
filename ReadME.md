@@ -3,7 +3,7 @@
 ## The goal
 
 <p>
-  I want to focus on a more interactive learning experience with System Design. Rather than reading the textbook for Grokking System Design Interview, I want to design the system using console commands, tests, and simpler indicators of why a b and c are implemented and what is it actually doing.
+  I want to focus on a more interactive JavaScript learning experience with System Design. Rather than reading the textbook for Grokking System Design Interview, I want to design the system using console commands, tests, and simpler indicators of why a b and c are implemented and what is it actually doing.
 
 Here you will find steps for Caching, Load Balancing, and Partitioning will timeout for 4-5 seconds console logging what is actually happening in the moment and why we have it in place.
 
@@ -20,14 +20,21 @@ The format:
 </ul>
 
 ## Table of Contents
-
-#### Source: Grokking the System Design Interview
-
+<ul>
+<li>Prerequisites</li>
+<li>How To Get Started</li>
+<li>Source: Grokking the System Design Interview</li>
 <ul>
   <li>Easy: Designing a URL Shortening service like TinyURL</li>
 </ul>
+<li>Source: Microsoft Azure Cloud Design Patterns</li>
+</ul>
 
-#### Source: Microsoft Azure Cloud Design Patterns
+## Prerequisites
+1. Install VSCode
+2. Install Node.js
+
+## How To Get Started
 
 ## General Step by Step Guide for designing a system
 
