@@ -1,34 +1,22 @@
 # Interactive System Design Practice
-
 ## The goal
 
-<p>
-  I want to focus on a more interactive JavaScript learning experience with System Design. To supplement reading the Grokking System Design Interview, I want to design the system visually using console commands, tests, and simpler indicators of why a b and c are implemented and what is it actually doing.
+  I want to focus on a more interactive JavaScript learning experience with System Design. To supplement reading the Grokking System Design Interview, I want to design the system visually using console commands, tests, and simpler indicators of why **A** **B**, and **C** are implemented and what is it doing.
 
-Here you will find steps for Caching, Load Balancing, and Partitioning will timeout for 4-5 seconds console logging what is actually happening in the moment and why we have it in place.
+Here you will find steps for Caching, Load Balancing, and Partitioning will timeout for 4-5 seconds console logs what is happening in the moment and why we have it in place.
 
-Following the interactive design is a comprenehsive readme that will breakdown the pros and cons, the thought process and the alternatives of each design.
+Following the interactive design is a comprehensive readme that will break down the pros and cons, the thought process, and the alternatives of each design.
 
-Currently I'm working with examples from Grokking the System Design Interview, but will find more content on Cloud Design Patterns from Azure in the future.
-</p>
-
-The format:
-<ul>
-  <li>Source</li>
-  <li>Difficulty</li>
-  <li>What System we are designing</li>
-</ul>
+Currently, I'm working with examples from Grokking the System Design Interview but will find more content on Cloud Design Patterns from Azure in the future.
 
 ## Table of Contents
-<ul>
-<li>Prerequisites</li>
-<li>How To Get Started</li>
-<li>Source: Grokking the System Design Interview</li>
-<ul>
-  <li>Easy: Designing a URL Shortening service like TinyURL</li>
-</ul>
-<li>Source: Microsoft Azure Cloud Design Patterns</li>
-</ul>
+
+- [Prerequisites](#prerequisites)
+- [How To Get Started](#how-to-get-started)
+- Source: Grokking the System Design Interview
+  - Easy: [Designing a URL Shortening service like TinyURL](https://github.com/chitangchin/InteractiveSystemDesign/tree/main/Designing%20a%20URL%20Shortening%20service%20like%20TinyURL)
+- Source: Microsoft Azure Cloud Design Patterns
+
 
 ## Prerequisites
 1. Install VSCode
@@ -36,15 +24,15 @@ The format:
 
 ## How To Get Started
 
-## General Step by Step Guide for designing a system
+## General Step-by-Step Guide for designing a system
 
-Understanding the Case Scenario and Ask
+Understanding the Case Scenario and Asking
 
 Clarifying Questions
 
 Understanding the workflow and User story
 
-focus on designing the backend or frontend or both?
+focus on designing the backend front or both?
 
 Define the APIs
 
@@ -56,17 +44,17 @@ scaling partitioning load balancing and caching
 
 what scale is expected? tweets number of tweet views timeline generations per sec, etc
 
-how muhc storagew will we need?
-each tweet is unique to the storage size photo and videos
+how much storage will we need?
+each tweet is unique to the storage size of photos and videos
 
-network bandwith usage are we expeciong? how to manage traffic and balance load between servers
+network bandwidth usage are we expecting? how to manage traffic and balance load between servers
 
 defining data model
-how data will flow among compnents
+how data will flow among components
 
 user:
-tweet
-userFollow:
+Tweet
+user follow:
 FavoriteTweets
 
 NoSQL? or MySQL?
