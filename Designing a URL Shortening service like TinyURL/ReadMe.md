@@ -101,6 +101,32 @@ Memory for cache: X (KB, MB, GB, or TB)
 
 ## Designing the API
 
+### createURL(Parameters)
+
+**Parameters:**
+- api_dev_key (string): Each account will get a unique API developer key. This is used to throttle users on an allocated quota.
+- original_url (string): Original URL to be shortened.
+- custom_alias (string): Optional custom key for the URL.
+- user_name (string): Optional user name.
+- expire_date (string): Optional expiration date for the shortened URL.
+
+**Returns: (string)**
+- The shortened URL or an Error Code.
+
+### deleteURL(Parameters)
+
+**Parameters:**
+- api_dev_key (string)
+- url_key (string): shortened URL
+
+**Returns: (string)**
+- URL removed or Error Code.
+
+### How to detect and prevent abuse?
+
+*api_dev_key is in place to prevent abuse. By providing a throttle for users,Shortened URL Creations and Redirections can be limited*
+
 ## Designing the Database
+
 
 
