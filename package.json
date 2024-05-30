@@ -1,0 +1,22 @@
+{
+  "name": "interactivesystemdesign",
+  "version": "1.0.0",
+  "description": "Interactive demonstration of System Design for Interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "System",
+    "Design",
+    "System",
+    "Design",
+    "Interview",
+    "Interview"
+  ],
+  "author": "chitangbchin",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
