@@ -20,8 +20,8 @@ Currently, I'm working with examples from Grokking the System Design Interview b
 
 
 ## Prerequisites
-1. Install VSCode
-2. Install Node.js
+1. Install [VSCode](https://code.visualstudio.com/download)
+2. Install [Node.js](https://nodejs.org/en/download/package-manager/current)
 
 ## How To Get Started
 
