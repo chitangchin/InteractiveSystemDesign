@@ -25,7 +25,19 @@ Currently, I'm working with examples from Grokking the System Design Interview b
 
 ## How To Get Started
 
-## General Step-by-Step Guide for designing a system
+## Fundamental Practices
+
+[Performance vs Scalability](https://blog.professorbeekums.com/performance-vs-scalability/)
+
+Here is a great resource for understanding the difference between Performance and Scalability. 
+
+The article gives a great example comparing the task of checking out at a grocery shop to messaging queues. When we are vertically scaling in the example, it does not solve the issue of heavy load because our throughput has not increased. Even if we added caching (providing a repeat customer with the same receipt to process within seconds), it only covers a small percentage of customers(data) ignorant to data changing or new data coming.
+
+Instead of caching, horizontally scaling by adding more cashiers and workers to check out each customer allows the performance to be close to constant.
+
+The author also mentioned the importance of adding a messaging queue, for each message to be processed in an orderly fashion.
+
+When the amount of customers is increasing, we should scale horizontally to keep performance at a constant rate.
 
 ## Resources
 
